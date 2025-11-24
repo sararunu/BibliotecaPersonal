@@ -12,7 +12,7 @@ public class ControladorDeLibros {
     //constructor de INYECCIÓN DE DEPENDENCIAS
     private final ServicioDeLibros servicioDeLibros;
 
-    public ControladorDeLibros(ServicioDeLibros servicioDeLibros, ServicioDeLibros servicioDeLibros1) {
+    public ControladorDeLibros(ServicioDeLibros servicioDeLibros) {
         this.servicioDeLibros = servicioDeLibros;
     }
 
